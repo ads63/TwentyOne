@@ -56,9 +56,9 @@ If application stops drawing, it opens cards.
 
 ### Neutral result conditions:
 
-- If both scored 21 points, 
-- If both scored any amount more than 21 points, 
-- If both scored the same amount in the range of 17-20 points
+- If both players scored 21 points, 
+- If both players scored any amount more than 21 points, 
+- If both players scored the same amount in the range of 17-20 points
 
 ## Project structure:
 
