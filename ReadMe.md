@@ -1,4 +1,4 @@
-#  Simple card game "21" based on https://deckofcardsapi.com/ API
+#  Simple card game "21 points"
 
 ### (educational project for mastering Combine)
 
@@ -9,6 +9,10 @@
 - SwiftUI
 - Combine
 - URLSession
+
+## API
+
+https://deckofcardsapi.com/
 
 ## Game view:
   </p>
