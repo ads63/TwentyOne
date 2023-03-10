@@ -1,4 +1,9 @@
 #  Simple card game "21" based on https://deckofcardsapi.com/ API
+
+### (educational project for mastering Combine)
+
+## Platform iOS 16.0
+
 ## Stack
 
 - SwiftUI
