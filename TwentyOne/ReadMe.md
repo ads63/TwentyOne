@@ -1,4 +1,7 @@
 #  Simple card game "21" based on https://deckofcardsapi.com/ API
+## Stack
+- SwiftUI
+- Combine
 ## Game description:
 ### Players
 first player - application
