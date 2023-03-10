@@ -39,17 +39,17 @@ If application stops drawing, it opens cards.
 
 ### Winning conditions
 
-If both players scored from 17 to 20 points, the one who scored more won. 
-If one player scored 21 points and the other less or more than 21, the first one wins.
-If one player scored more than 21 points and the other less than or equal to 21, the second one wins.
+- If both players scored from 17 to 20 points, the one who scored more won. 
+- If one player scored 21 points and the other less or more than 21, the first one wins.
+- If one player scored more than 21 points and the other less than or equal to 21, the second one wins.
 
 ### Neutral result conditions:
 
-If both scored 21 points, 
-If both scored any amount more than 21 points, 
-If both scored the same amount in the range of 17-20 points
+- If both scored 21 points, 
+- If both scored any amount more than 21 points, 
+- If both scored the same amount in the range of 17-20 points
 
-##Project structure:
+## Project structure:
 
 API/APIData/*.swift - structures to decode API responses
 
