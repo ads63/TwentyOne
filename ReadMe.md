@@ -44,7 +44,7 @@ If both scored 21 points,
 If both scored any amount more than 21 points, 
 If both scored the same amount in the range of 17-20 points
 
-##Files description:
+##Project structure:
 
 API/APIData/*.swift - structures to decode API responses
 
@@ -59,12 +59,19 @@ ViewModel/GameEnums.swift - different enums for Game class
 ViewModel/Player.swift - player view model vlass
 
 UI/ContentView.swift -  root view
+
 UI/GameView.swift -  main game view
+
 UI/GameOverView.swift -  game results view
+
 UI/ErrorView.swift  - error state view
+
 UI/PlayerVuew.swift - player view (for GameView)
+
 UI/CardsView.swift - set of player cards view (for PlayerView, GameOverView)
+
 UI/CardView.swift - single card view (for CardsView)
+
 UI/CustomButton.swift - general animated button for all the views
 
 
