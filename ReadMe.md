@@ -9,10 +9,12 @@
   </p>
 <div align="center">
 
-![video](Doc/twentyOne.gif)
+![video](TwentyOne/Doc/twentyOne.gif)
 </div>
 </p>
+
 ## Game description:
+
 ### Players
 first player - application
 second player - user

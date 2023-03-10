@@ -121,6 +121,7 @@
 		16AEB83F295A3C3B00C6C155 = {
 			isa = PBXGroup;
 			children = (
+				1655C894295F1C2000E1790B /* ReadMe.md */,
 				16AEB84A295A3C3B00C6C155 /* TwentyOne */,
 				1689A9B229603B92006284D4 /* TwentyOneTests */,
 				16AEB849295A3C3B00C6C155 /* Products */,
@@ -146,7 +147,6 @@
 				16AEB84B295A3C3B00C6C155 /* TwentyOneApp.swift */,
 				16AEB84F295A3C3F00C6C155 /* Assets.xcassets */,
 				16AEB851295A3C3F00C6C155 /* Preview Content */,
-				1655C894295F1C2000E1790B /* ReadMe.md */,
 			);
 			path = TwentyOne;
 			sourceTree = "<group>";
