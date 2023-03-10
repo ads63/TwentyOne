@@ -9,7 +9,7 @@
   </p>
 <div align="center">
 
-![video](TwentyOne/Doc/twentyOne.gif)
+![video](Doc/twentyOne.gif)
 </div>
 </p>
 
