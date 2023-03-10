@@ -17,13 +17,18 @@
 
 ### Players
 first player - application
+
 second player - user
 
 ### Card weights: 
 2...10 according to nominal, 
+
 jack - 2
+
 queen - 3
+
 king - 4
+
 ace - 11
 
 ### Game rules 
