@@ -26,6 +26,7 @@
 		16AEB85E295A3E1300C6C155 /* DeckResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16AEB85D295A3E1300C6C155 /* DeckResponse.swift */; };
 		16AEB860295A3E4A00C6C155 /* CardResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16AEB85F295A3E4A00C6C155 /* CardResponse.swift */; };
 		16AEB862295A3E9800C6C155 /* Method.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16AEB861295A3E9800C6C155 /* Method.swift */; };
+		16DBE57629BB132E001AEFBB /* twentyOne.gif in Resources */ = {isa = PBXBuildFile; fileRef = 16DBE57529BB132E001AEFBB /* twentyOne.gif */; };
 		16FE893F295B15BB00E2DCF3 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16FE893E295B15BB00E2DCF3 /* CardView.swift */; };
 /* End PBXBuildFile section */
 
@@ -62,6 +63,7 @@
 		16AEB85D295A3E1300C6C155 /* DeckResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeckResponse.swift; sourceTree = "<group>"; };
 		16AEB85F295A3E4A00C6C155 /* CardResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardResponse.swift; sourceTree = "<group>"; };
 		16AEB861295A3E9800C6C155 /* Method.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Method.swift; sourceTree = "<group>"; };
+		16DBE57529BB132E001AEFBB /* twentyOne.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = twentyOne.gif; sourceTree = "<group>"; };
 		16FE893E295B15BB00E2DCF3 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -137,6 +139,7 @@
 		16AEB84A295A3C3B00C6C155 /* TwentyOne */ = {
 			isa = PBXGroup;
 			children = (
+				16DBE57429BB1319001AEFBB /* Doc */,
 				168196B5295AD83A00D719DF /* UI */,
 				168196B4295AD82800D719DF /* ViewModel */,
 				16AEB85B295A3DAE00C6C155 /* API */,
@@ -174,6 +177,14 @@
 				168196BA295AE56200D719DF /* Card.swift */,
 			);
 			path = APIData;
+			sourceTree = "<group>";
+		};
+		16DBE57429BB1319001AEFBB /* Doc */ = {
+			isa = PBXGroup;
+			children = (
+				16DBE57529BB132E001AEFBB /* twentyOne.gif */,
+			);
+			path = Doc;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -266,6 +277,7 @@
 			files = (
 				16AEB853295A3C3F00C6C155 /* Preview Assets.xcassets in Resources */,
 				16AEB850295A3C3F00C6C155 /* Assets.xcassets in Resources */,
+				16DBE57629BB132E001AEFBB /* twentyOne.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

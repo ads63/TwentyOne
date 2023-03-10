@@ -1,7 +1,17 @@
 #  Simple card game "21" based on https://deckofcardsapi.com/ API
 ## Stack
+
 - SwiftUI
 - Combine
+- URLSession
+
+## Game view:
+  </p>
+<div align="center">
+
+![video](Doc/twentyOne.gif)
+</div>
+</p>
 ## Game description:
 ### Players
 first player - application
