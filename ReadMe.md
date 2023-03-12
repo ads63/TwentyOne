@@ -62,7 +62,7 @@ If application stops drawing, it opens cards.
 
 ## Project structure:
 
-<a href="https://github.com/ads63/TwentyOne/tree/main/TwentyOne/API/APIData/">- structures to decode API responses</a>\
+<a href="https://github.com/ads63/TwentyOne/tree/main/TwentyOne/API/APIData/">API/APIData/*.swift - structures to decode API responses</a>\
 
 API/APIData/*.swift - structures to decode API responses
 
