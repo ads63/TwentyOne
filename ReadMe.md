@@ -1,6 +1,6 @@
 #  Simple card game "21 points"
 
-### (educational project for mastering Combine)
+### (educational project for mastering SwiftUI)
 
 ## Platform 
 
