@@ -9,13 +9,13 @@ import Combine
 import Foundation
 
 final class Player: ObservableObject {
-    public var mode: PlayerMode
+    var mode: PlayerMode
     @Published var showBack: Bool
     @Published var cards: [Card] = [] { didSet {
         showBack = showBack && isDrawEnabled
     }}
-    public let game: Game?
-    public var isDrawEnabled: Bool {
+    let game: Game?
+    var isDrawEnabled: Bool {
         cards.map { $0.weight }.reduce(0, +) < Game.stopDraw
     }
 

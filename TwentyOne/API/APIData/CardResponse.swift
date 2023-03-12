@@ -6,11 +6,12 @@
 //
 
 import Foundation
+
 /// card set response
-public struct CardResponse: Codable {
-    public static let defaultValue = CardResponse(success: false, remaining: 0, cards: [])
-    public var success: Bool
-    public var deck_id: String?
-    public var remaining: Int
-    public var cards: [Card]
+struct CardResponse: Codable {
+    static let defaultValue = CardResponse(success: false, remaining: 0, cards: [])
+    var success: Bool
+    var deck_id: String?
+    var remaining: Int
+    var cards: [Card]
 }

@@ -9,10 +9,10 @@ import Combine
 import UIKit
 
 /// deck state response
-public struct DeckResponse: Codable {
-    public static let defaultValue = DeckResponse(success: false, remaining: 0, shuffled: false)
-    public var success: Bool
-    public var deck_id: String?
-    public var remaining: Int
-    public var shuffled: Bool
+struct DeckResponse: Codable {
+    static let defaultValue = DeckResponse(success: false, remaining: 0, shuffled: false)
+    var success: Bool
+    var deck_id: String?
+    var remaining: Int
+    var shuffled: Bool
 }

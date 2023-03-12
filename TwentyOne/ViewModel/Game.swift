@@ -32,7 +32,7 @@ final class Game: ObservableObject {
     }
 
     /// to init new game
-    public func newGame() {
+    func newGame() {
         error = nil
         winner = .unknown
         gameOver = false
@@ -49,7 +49,7 @@ final class Game: ObservableObject {
     }
 
     /// add cards to players
-    public func drawCards() {
+    func drawCards() {
         guard let deckId = self.deckId,
               !deckId.isEmpty else { return }
         apiClient.drawCards(deckId: deckId,

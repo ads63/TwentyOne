@@ -6,7 +6,7 @@
 //
 
 import Foundation
-public struct Card: Codable {
+struct Card: Codable {
     private static let weights = [
         "2": 2,
         "3": 3,
@@ -22,12 +22,12 @@ public struct Card: Codable {
         "K": 4,
         "A": 11
     ]
-    public var code: String
-    public var image: String
-    public var images: [String: String]
-    public var value: String
-    public var suit: String
-    public var weight: Int {
+    var code: String
+    var image: String
+    var images: [String: String]
+    var value: String
+    var suit: String
+    var weight: Int {
         guard let code = code.first else { return 0 }
         return Card.weights[String(code)] ?? 0
     }
