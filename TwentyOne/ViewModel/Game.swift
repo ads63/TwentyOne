@@ -7,6 +7,7 @@
 
 import Combine
 import Foundation
+
 final class Game: ObservableObject {
     static let winScore = 21
     static let stopDraw = 17

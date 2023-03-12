@@ -9,6 +9,7 @@ import SwiftUI
 
 struct CardsView: View {
     @ObservedObject var player: Player
+    
     var body: some View {
         ZStack {
             ForEach(0 ..< player.cards.count, id: \.self) { index in

@@ -9,6 +9,7 @@ import SwiftUI
 
 struct ErrorView: View {
     @ObservedObject var game: Game
+    
     var body: some View {
         VStack {
             Text(game.error?.errorDescription ?? "Unknown error")

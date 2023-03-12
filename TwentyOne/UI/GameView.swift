@@ -9,6 +9,7 @@ import SwiftUI
 
 struct GameView: View {
     @ObservedObject var game: Game
+    
     var body: some View {
         GeometryReader { geometry in
             VStack {

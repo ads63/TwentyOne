@@ -7,6 +7,7 @@
 
 import Combine
 import Foundation
+
 final class Player: ObservableObject {
     public var mode: PlayerMode
     @Published var showBack: Bool

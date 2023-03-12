@@ -9,6 +9,7 @@ import SwiftUI
 
 struct GameOverView: View {
     @ObservedObject var game: Game
+    
     var body: some View {
         VStack {
             Text("Game results")
