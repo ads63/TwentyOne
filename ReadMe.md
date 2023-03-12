@@ -1,6 +1,6 @@
 #  Simple card game "21 points"
 
-### (educational project for mastering Combine)
+### (educational project for mastering SwiftUI)
 
 ## Platform 
 
@@ -62,32 +62,32 @@ If application stops drawing, it opens cards.
 
 ## Project structure:
 
-API/APIData/*.swift - structures to decode API responses
+<a href="https://github.com/ads63/TwentyOne/tree/main/TwentyOne/API/APIData/">API/APIData/*.swift - structures to decode API responses</a>
 
-API/APIClient.swift - API client  
+<a href="https://github.com/ads63/TwentyOne/tree/main/TwentyOne/API/APIClient.swift">API/APIClient.swift - API client</a>
 
-API/Methhod.swift - enum to get API URLRequests
+<a href="https://github.com/ads63/TwentyOne/tree/main/TwentyOne/API/Method.swift">API/Method.swift - enum to get API URLRequests</a>
 
-ViewModel/Game.swift - game view model class
+<a href="https://github.com/ads63/TwentyOne/tree/main/TwentyOne/ViewModel/Game.swift">ViewModel/Game.swift - game view model class</a>
 
-ViewModel/GameEnums.swift - different enums for Game class
+<a href="https://github.com/ads63/TwentyOne/tree/main/TwentyOne/ViewModel/GameEnums.swift">ViewModel/GameEnums.swift - enums for Game class</a>
 
-ViewModel/Player.swift - player view model vlass
+<a href="https://github.com/ads63/TwentyOne/tree/main/TwentyOne/ViewModel/Player.swift">ViewModel/Player.swift - player view model class</a>
 
-UI/ContentView.swift -  root view
+<a href="https://github.com/ads63/TwentyOne/tree/main/TwentyOne/UI/ContentView.swift">UI/ContentView.swift - root view</a>
 
-UI/GameView.swift -  main game view
+<a href="https://github.com/ads63/TwentyOne/tree/main/TwentyOne/UI/GameView.swift">UI/GameView.swift -  main game view</a>
 
-UI/GameOverView.swift -  game results view
+<a href="https://github.com/ads63/TwentyOne/tree/main/TwentyOne/UI/ErrorView.swift">UI/ErrorView.swift  - error state view</a>
 
-UI/ErrorView.swift  - error state view
+<a href="https://github.com/ads63/TwentyOne/tree/main/TwentyOne/UI/PlayerView.swift">UI/PlayerView.swift - player view (for GameView)</a>
 
-UI/PlayerVuew.swift - player view (for GameView)
+<a href="https://github.com/ads63/TwentyOne/tree/main/TwentyOne/UI/CardsView.swift">UI/CardsView.swift - set of player cards view (for PlayerView, GameOverView)</a>
 
-UI/CardsView.swift - set of player cards view (for PlayerView, GameOverView)
+<a href="https://github.com/ads63/TwentyOne/tree/main/TwentyOne/UI/CardView.swift">UI/CardView.swift - single card view (for CardsView)</a>
 
-UI/CardView.swift - single card view (for CardsView)
+<a href="https://github.com/ads63/TwentyOne/tree/main/TwentyOne/UI/CustomButton.swift">
+UI/CustomButton.swift - general animated button for all the views</a>
 
-UI/CustomButton.swift - general animated button for all the views
 
 

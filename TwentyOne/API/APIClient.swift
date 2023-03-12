@@ -8,6 +8,7 @@
 import Combine
 import Foundation
 import UIKit
+
 struct APIClient {
     private let decoder = JSONDecoder()
     private let queue = DispatchQueue(label: "APIClient", qos: .default, attributes: .concurrent)
