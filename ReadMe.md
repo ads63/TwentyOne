@@ -62,7 +62,32 @@ If application stops drawing, it opens cards.
 
 ## Project structure:
 
-<a href="https://github.com/ads63/TwentyOne/tree/main/TwentyOne/API/APIData/">API/APIData/*.swift - structures to decode API responses</a>\
+<a href="https://github.com/ads63/TwentyOne/tree/main/TwentyOne/API/APIData/">API/APIData/*.swift - structures to decode API responses</a>
+
+<a href="https://github.com/ads63/TwentyOne/tree/main/TwentyOne/API/APIClient.swift">API/APIClient.swift - API client</a>
+
+<a href="https://github.com/ads63/TwentyOne/tree/main/TwentyOne/API/Methhod.swift">API/Methhod.swift - enum to get API URLRequests</a>
+
+<a href="https://github.com/ads63/TwentyOne/tree/main/TwentyOne/ViewModel/Game.swift">ViewModel/Game.swift - game view model class</a>
+
+<a href="https://github.com/ads63/TwentyOne/tree/main/TwentyOne/ViewModel/GameEnums.swift">ViewModel/GameEnums.swift - enums for Game class</a>
+
+<a href="https://github.com/ads63/TwentyOne/tree/main/TwentyOne/ViewModel/Player.swift">ViewModel/Player.swift - player view model vlass</a>
+
+<a href="https://github.com/ads63/TwentyOne/tree/main/TwentyOne/UI/ContentView.swift">UI/ContentView.swift - root view</a>
+
+<a href="https://github.com/ads63/TwentyOne/tree/main/TwentyOne/UI/GameView.swift">UI/GameView.swift -  main game view</a>
+
+<a href="https://github.com/ads63/TwentyOne/tree/main/TwentyOne/UI/ErrorView.swift">UI/ErrorView.swift  - error state view</a>
+
+<a href="https://github.com/ads63/TwentyOne/tree/main/TwentyOne/UI/PlayerVuew.swift">UI/PlayerVuew.swift - player view (for GameView)</a>
+
+<a href="https://github.com/ads63/TwentyOne/tree/main/TwentyOne/UI/CardsView.swift">UI/CardsView.swift - set of player cards view (for PlayerView, GameOverView)</a>
+
+<a href="https://github.com/ads63/TwentyOne/tree/main/TwentyOne/UI/CardView.swift">UI/CardView.swift - single card view (for CardsView)</a>
+
+<a href="https://github.com/ads63/TwentyOne/tree/main/TwentyOne/UI/CustomButton.swift">
+UI/CustomButton.swift - general animated button for all the views</a>
 
 API/APIData/*.swift - structures to decode API responses
 
