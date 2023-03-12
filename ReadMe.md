@@ -72,7 +72,7 @@ If application stops drawing, it opens cards.
 
 <a href="https://github.com/ads63/TwentyOne/tree/main/TwentyOne/ViewModel/GameEnums.swift">ViewModel/GameEnums.swift - enums for Game class</a>
 
-<a href="https://github.com/ads63/TwentyOne/tree/main/TwentyOne/ViewModel/Player.swift">ViewModel/Player.swift - player view model vlass</a>
+<a href="https://github.com/ads63/TwentyOne/tree/main/TwentyOne/ViewModel/Player.swift">ViewModel/Player.swift - player view model class</a>
 
 <a href="https://github.com/ads63/TwentyOne/tree/main/TwentyOne/UI/ContentView.swift">UI/ContentView.swift - root view</a>
 
@@ -80,7 +80,7 @@ If application stops drawing, it opens cards.
 
 <a href="https://github.com/ads63/TwentyOne/tree/main/TwentyOne/UI/ErrorView.swift">UI/ErrorView.swift  - error state view</a>
 
-<a href="https://github.com/ads63/TwentyOne/tree/main/TwentyOne/UI/PlayerVuew.swift">UI/PlayerVuew.swift - player view (for GameView)</a>
+<a href="https://github.com/ads63/TwentyOne/tree/main/TwentyOne/UI/PlayerView.swift">UI/PlayerView.swift - player view (for GameView)</a>
 
 <a href="https://github.com/ads63/TwentyOne/tree/main/TwentyOne/UI/CardsView.swift">UI/CardsView.swift - set of player cards view (for PlayerView, GameOverView)</a>
 
@@ -89,32 +89,5 @@ If application stops drawing, it opens cards.
 <a href="https://github.com/ads63/TwentyOne/tree/main/TwentyOne/UI/CustomButton.swift">
 UI/CustomButton.swift - general animated button for all the views</a>
 
-API/APIData/*.swift - structures to decode API responses
-
-API/APIClient.swift - API client  
-
-API/Methhod.swift - enum to get API URLRequests
-
-ViewModel/Game.swift - game view model class
-
-ViewModel/GameEnums.swift - different enums for Game class
-
-ViewModel/Player.swift - player view model vlass
-
-UI/ContentView.swift -  root view
-
-UI/GameView.swift -  main game view
-
-UI/GameOverView.swift -  game results view
-
-UI/ErrorView.swift  - error state view
-
-UI/PlayerVuew.swift - player view (for GameView)
-
-UI/CardsView.swift - set of player cards view (for PlayerView, GameOverView)
-
-UI/CardView.swift - single card view (for CardsView)
-
-UI/CustomButton.swift - general animated button for all the views
 
 
