@@ -66,7 +66,7 @@ If application stops drawing, it opens cards.
 
 <a href="https://github.com/ads63/TwentyOne/tree/main/TwentyOne/API/APIClient.swift">API/APIClient.swift - API client</a>
 
-<a href="https://github.com/ads63/TwentyOne/tree/main/TwentyOne/API/Methhod.swift">API/Methhod.swift - enum to get API URLRequests</a>
+<a href="https://github.com/ads63/TwentyOne/tree/main/TwentyOne/API/Method.swift">API/Method.swift - enum to get API URLRequests</a>
 
 <a href="https://github.com/ads63/TwentyOne/tree/main/TwentyOne/ViewModel/Game.swift">ViewModel/Game.swift - game view model class</a>
 
