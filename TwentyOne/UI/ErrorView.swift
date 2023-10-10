@@ -14,6 +14,7 @@ struct ErrorView: View {
         VStack {
             Text(game.error?.errorDescription ?? "Unknown error")
                 .foregroundColor(.red)
+                .accessibilityIdentifier(AccessibilityIds.errorLabel)
             CustomButton(title: "New game") {
                 game.newGame()
             }

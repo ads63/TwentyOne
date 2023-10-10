@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		16192A262AD315E50083CBD6 /* XCTestExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16192A252AD315E50083CBD6 /* XCTestExtension.swift */; };
+		165394E62ACC096000C1EA89 /* TwentyOneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 165394E52ACC096000C1EA89 /* TwentyOneUITests.swift */; };
+		165394E82ACC096000C1EA89 /* TwentyOneUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 165394E72ACC096000C1EA89 /* TwentyOneUITestsLaunchTests.swift */; };
+		165394F02ACC4D4C00C1EA89 /* BaseTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 165394EF2ACC4D4C00C1EA89 /* BaseTest.swift */; };
+		165394F22ACC4EFC00C1EA89 /* BaseScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 165394F12ACC4EFC00C1EA89 /* BaseScreen.swift */; };
+		165394F72ACC55F400C1EA89 /* GameScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 165394F62ACC55F400C1EA89 /* GameScreen.swift */; };
+		165394FC2ACC61EA00C1EA89 /* UIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 165394FB2ACC61EA00C1EA89 /* UIConstants.swift */; };
+		165394FF2ACC845100C1EA89 /* AccessibilityIds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 165394FE2ACC845100C1EA89 /* AccessibilityIds.swift */; };
 		1655C893295F14FF00E1790B /* GameEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1655C892295F14FF00E1790B /* GameEnums.swift */; };
 		168196B3295AD77600D719DF /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 168196B2295AD77600D719DF /* PlayerView.swift */; };
 		168196B7295AD8D300D719DF /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 168196B6295AD8D300D719DF /* Game.swift */; };
@@ -27,10 +35,22 @@
 		16AEB860295A3E4A00C6C155 /* CardResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16AEB85F295A3E4A00C6C155 /* CardResponse.swift */; };
 		16AEB862295A3E9800C6C155 /* Method.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16AEB861295A3E9800C6C155 /* Method.swift */; };
 		16DBE57629BB132E001AEFBB /* twentyOne.gif in Resources */ = {isa = PBXBuildFile; fileRef = 16DBE57529BB132E001AEFBB /* twentyOne.gif */; };
+		16FA799C2AD5535D0096D66D /* Messages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16FA799B2AD5535D0096D66D /* Messages.swift */; };
+		16FA79A12AD56F980096D66D /* NewGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16FA79A02AD56F980096D66D /* NewGameTests.swift */; };
+		16FA79A42AD57B9B0096D66D /* Timeouts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16FA79A32AD57B9B0096D66D /* Timeouts.swift */; };
+		16FA79A72AD58BE30096D66D /* Predicates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16FA79A62AD58BE30096D66D /* Predicates.swift */; };
+		16FA79A92AD59B2E0096D66D /* GameIterationsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16FA79A82AD59B2E0096D66D /* GameIterationsTest.swift */; };
 		16FE893F295B15BB00E2DCF3 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16FE893E295B15BB00E2DCF3 /* CardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		165394E92ACC096000C1EA89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 16AEB840295A3C3B00C6C155 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 16AEB847295A3C3B00C6C155;
+			remoteInfo = TwentyOne;
+		};
 		1689A9B529603B92006284D4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 16AEB840295A3C3B00C6C155 /* Project object */;
@@ -41,6 +61,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		16192A252AD315E50083CBD6 /* XCTestExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCTestExtension.swift; sourceTree = "<group>"; };
+		165394E32ACC096000C1EA89 /* TwentyOneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TwentyOneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		165394E52ACC096000C1EA89 /* TwentyOneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwentyOneUITests.swift; sourceTree = "<group>"; };
+		165394E72ACC096000C1EA89 /* TwentyOneUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwentyOneUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		165394EF2ACC4D4C00C1EA89 /* BaseTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BaseTest.swift; path = TwentyOneUITests/Tests/Base/BaseTest.swift; sourceTree = SOURCE_ROOT; };
+		165394F12ACC4EFC00C1EA89 /* BaseScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseScreen.swift; sourceTree = "<group>"; };
+		165394F62ACC55F400C1EA89 /* GameScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScreen.swift; sourceTree = "<group>"; };
+		165394FB2ACC61EA00C1EA89 /* UIConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIConstants.swift; sourceTree = "<group>"; };
+		165394FE2ACC845100C1EA89 /* AccessibilityIds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessibilityIds.swift; sourceTree = "<group>"; };
 		1655C892295F14FF00E1790B /* GameEnums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameEnums.swift; sourceTree = "<group>"; };
 		1655C894295F1C2000E1790B /* ReadMe.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = ReadMe.md; sourceTree = "<group>"; };
 		168196B2295AD77600D719DF /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
@@ -64,10 +93,22 @@
 		16AEB85F295A3E4A00C6C155 /* CardResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardResponse.swift; sourceTree = "<group>"; };
 		16AEB861295A3E9800C6C155 /* Method.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Method.swift; sourceTree = "<group>"; };
 		16DBE57529BB132E001AEFBB /* twentyOne.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = twentyOne.gif; sourceTree = "<group>"; };
+		16FA799B2AD5535D0096D66D /* Messages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Messages.swift; sourceTree = "<group>"; };
+		16FA79A02AD56F980096D66D /* NewGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewGameTests.swift; sourceTree = "<group>"; };
+		16FA79A32AD57B9B0096D66D /* Timeouts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Timeouts.swift; sourceTree = "<group>"; };
+		16FA79A62AD58BE30096D66D /* Predicates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Predicates.swift; sourceTree = "<group>"; };
+		16FA79A82AD59B2E0096D66D /* GameIterationsTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameIterationsTest.swift; sourceTree = "<group>"; };
 		16FE893E295B15BB00E2DCF3 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		165394E02ACC096000C1EA89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		1689A9AE29603B92006284D4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -85,6 +126,57 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		165394E42ACC096000C1EA89 /* TwentyOneUITests */ = {
+			isa = PBXGroup;
+			children = (
+				165394FA2ACC61C800C1EA89 /* Constants */,
+				165394F32ACC549B00C1EA89 /* Tests */,
+				165394EE2ACC4D1500C1EA89 /* Screens */,
+				165394E52ACC096000C1EA89 /* TwentyOneUITests.swift */,
+				165394E72ACC096000C1EA89 /* TwentyOneUITestsLaunchTests.swift */,
+			);
+			path = TwentyOneUITests;
+			sourceTree = "<group>";
+		};
+		165394EE2ACC4D1500C1EA89 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				165394F12ACC4EFC00C1EA89 /* BaseScreen.swift */,
+				165394F62ACC55F400C1EA89 /* GameScreen.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		165394F32ACC549B00C1EA89 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				16FA79A52AD58BC60096D66D /* Predicates */,
+				16FA79A22AD57B7E0096D66D /* Timeouts */,
+				16FA799E2AD56F580096D66D /* Extensions */,
+				16FA799D2AD56F4E0096D66D /* Base */,
+				16FA79A02AD56F980096D66D /* NewGameTests.swift */,
+				16FA79A82AD59B2E0096D66D /* GameIterationsTest.swift */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		165394FA2ACC61C800C1EA89 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				165394FB2ACC61EA00C1EA89 /* UIConstants.swift */,
+				16FA799B2AD5535D0096D66D /* Messages.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		165394FD2ACC840200C1EA89 /* AccessibilityIds */ = {
+			isa = PBXGroup;
+			children = (
+				165394FE2ACC845100C1EA89 /* AccessibilityIds.swift */,
+			);
+			path = AccessibilityIds;
+			sourceTree = "<group>";
+		};
 		168196B4295AD82800D719DF /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
@@ -98,6 +190,7 @@
 		168196B5295AD83A00D719DF /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				165394FD2ACC840200C1EA89 /* AccessibilityIds */,
 				168196B2295AD77600D719DF /* PlayerView.swift */,
 				16AEB84D295A3C3B00C6C155 /* ContentView.swift */,
 				168196BC295AE63900D719DF /* CardsView.swift */,
@@ -124,6 +217,7 @@
 				1655C894295F1C2000E1790B /* ReadMe.md */,
 				16AEB84A295A3C3B00C6C155 /* TwentyOne */,
 				1689A9B229603B92006284D4 /* TwentyOneTests */,
+				165394E42ACC096000C1EA89 /* TwentyOneUITests */,
 				16AEB849295A3C3B00C6C155 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -133,6 +227,7 @@
 			children = (
 				16AEB848295A3C3B00C6C155 /* TwentyOne.app */,
 				1689A9B129603B92006284D4 /* TwentyOneTests.xctest */,
+				165394E32ACC096000C1EA89 /* TwentyOneUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -187,9 +282,59 @@
 			path = Doc;
 			sourceTree = "<group>";
 		};
+		16FA799D2AD56F4E0096D66D /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				165394EF2ACC4D4C00C1EA89 /* BaseTest.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		16FA799E2AD56F580096D66D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				16192A252AD315E50083CBD6 /* XCTestExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		16FA79A22AD57B7E0096D66D /* Timeouts */ = {
+			isa = PBXGroup;
+			children = (
+				16FA79A32AD57B9B0096D66D /* Timeouts.swift */,
+			);
+			path = Timeouts;
+			sourceTree = "<group>";
+		};
+		16FA79A52AD58BC60096D66D /* Predicates */ = {
+			isa = PBXGroup;
+			children = (
+				16FA79A62AD58BE30096D66D /* Predicates.swift */,
+			);
+			path = Predicates;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		165394E22ACC096000C1EA89 /* TwentyOneUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 165394EB2ACC096000C1EA89 /* Build configuration list for PBXNativeTarget "TwentyOneUITests" */;
+			buildPhases = (
+				165394DF2ACC096000C1EA89 /* Sources */,
+				165394E02ACC096000C1EA89 /* Frameworks */,
+				165394E12ACC096000C1EA89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				165394EA2ACC096000C1EA89 /* PBXTargetDependency */,
+			);
+			name = TwentyOneUITests;
+			productName = TwentyOneUITests;
+			productReference = 165394E32ACC096000C1EA89 /* TwentyOneUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		1689A9B029603B92006284D4 /* TwentyOneTests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1689A9B929603B92006284D4 /* Build configuration list for PBXNativeTarget "TwentyOneTests" */;
@@ -235,6 +380,10 @@
 				LastSwiftUpdateCheck = 1400;
 				LastUpgradeCheck = 1400;
 				TargetAttributes = {
+					165394E22ACC096000C1EA89 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 16AEB847295A3C3B00C6C155;
+					};
 					1689A9B029603B92006284D4 = {
 						CreatedOnToolsVersion = 14.0.1;
 						TestTargetID = 16AEB847295A3C3B00C6C155;
@@ -259,11 +408,19 @@
 			targets = (
 				16AEB847295A3C3B00C6C155 /* TwentyOne */,
 				1689A9B029603B92006284D4 /* TwentyOneTests */,
+				165394E22ACC096000C1EA89 /* TwentyOneUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		165394E12ACC096000C1EA89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		1689A9AF29603B92006284D4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -284,6 +441,25 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		165394DF2ACC096000C1EA89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16FA79A72AD58BE30096D66D /* Predicates.swift in Sources */,
+				165394F72ACC55F400C1EA89 /* GameScreen.swift in Sources */,
+				16FA79A92AD59B2E0096D66D /* GameIterationsTest.swift in Sources */,
+				165394E82ACC096000C1EA89 /* TwentyOneUITestsLaunchTests.swift in Sources */,
+				165394E62ACC096000C1EA89 /* TwentyOneUITests.swift in Sources */,
+				16FA799C2AD5535D0096D66D /* Messages.swift in Sources */,
+				16FA79A42AD57B9B0096D66D /* Timeouts.swift in Sources */,
+				165394F22ACC4EFC00C1EA89 /* BaseScreen.swift in Sources */,
+				16FA79A12AD56F980096D66D /* NewGameTests.swift in Sources */,
+				165394F02ACC4D4C00C1EA89 /* BaseTest.swift in Sources */,
+				16192A262AD315E50083CBD6 /* XCTestExtension.swift in Sources */,
+				165394FC2ACC61EA00C1EA89 /* UIConstants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		1689A9AD29603B92006284D4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -297,6 +473,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				168196BD295AE63900D719DF /* CardsView.swift in Sources */,
+				165394FF2ACC845100C1EA89 /* AccessibilityIds.swift in Sources */,
 				1655C893295F14FF00E1790B /* GameEnums.swift in Sources */,
 				16AEB84E295A3C3B00C6C155 /* ContentView.swift in Sources */,
 				16AEB860295A3E4A00C6C155 /* CardResponse.swift in Sources */,
@@ -319,6 +496,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		165394EA2ACC096000C1EA89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 16AEB847295A3C3B00C6C155 /* TwentyOne */;
+			targetProxy = 165394E92ACC096000C1EA89 /* PBXContainerItemProxy */;
+		};
 		1689A9B629603B92006284D4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 16AEB847295A3C3B00C6C155 /* TwentyOne */;
@@ -327,6 +509,44 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		165394EC2ACC096000C1EA89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexey.shinkarev.TwentyOneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TwentyOne;
+			};
+			name = Debug;
+		};
+		165394ED2ACC096000C1EA89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexey.shinkarev.TwentyOneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TwentyOne;
+			};
+			name = Release;
+		};
 		1689A9B729603B92006284D4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -538,6 +758,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		165394EB2ACC096000C1EA89 /* Build configuration list for PBXNativeTarget "TwentyOneUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				165394EC2ACC096000C1EA89 /* Debug */,
+				165394ED2ACC096000C1EA89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		1689A9B929603B92006284D4 /* Build configuration list for PBXNativeTarget "TwentyOneTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

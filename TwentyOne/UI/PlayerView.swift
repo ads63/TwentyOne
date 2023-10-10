@@ -13,6 +13,7 @@ struct PlayerView: View {
     var body: some View {
         VStack {
             CardsView(player: player)
+            .accessibilityIdentifier(AccessibilityIds.cardsView)
             Spacer()
             CustomButton(title: player.mode == .manual ? "Draw cards" : "Auto") {
                 player.game?.drawCards()

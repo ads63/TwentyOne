@@ -60,6 +60,7 @@ final class TwentyOneTests: XCTestCase {
         let maxGameIterations = 8
         var isGameOver = false
         var iterationCounter = 0
+
         game.newGame()
         let expectation = self.expectation(description: "Game is finished")
         game.$gameOver.sink(receiveValue: {
