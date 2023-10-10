@@ -1,4 +1,4 @@
-#  Some usefil command line tools"
+#  Some useful command line tools"
 ## run simulator
 xcrun simctl boot "iPhone 15"
 ## make simulator visible
