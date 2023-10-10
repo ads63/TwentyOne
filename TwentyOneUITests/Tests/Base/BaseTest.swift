@@ -18,14 +18,6 @@ class BaseTest: XCTestCase {
         XCTAssertTrue(app.wait(for: .runningForeground, timeout: 5),Messages.invalidAppState)
     }
     
-    func testPrintTree() {
-        
-        let app = XCUIApplication()
-        app/*@START_MENU_TOKEN@*/.buttons["Draw cards"]/*[[".buttons[\"Draw cards\"]",".buttons[\"player2View\"]"],[[[-1,1],[-1,0]]],[1]]@END_MENU_TOKEN@*/.tap()
-        app.buttons["New game"].tap()
-        print(app.debugDescription)
-    }
-    
     func step(_ name: String, block: (XCTActivity) -> Void) {
         XCTContext.runActivity(named: name, block: block)
     }
