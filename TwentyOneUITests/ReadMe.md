@@ -19,6 +19,7 @@ xcrun simctl launch terminate ru.cian.mobile
 xcrun simctl uninstall booted ru.cian.mobile
 ## send push notification
 firstly create json with  .apns name extension
+
 {
     "aps": {
         "alert": {
@@ -29,7 +30,9 @@ firstly create json with  .apns name extension
         "sound": "default"
     }
 }
+
 secondly
+
 xcrun simctl push booted ru.cian.mobile ~/Documents/mocks/push.apns
 ## run XCUITests in parallel by classes
 xcodebuild \
@@ -48,7 +51,9 @@ xcodebuild \
  -destination 'platform=iOS Simulator,name=iPhone X 3,OS=11.0' \
  -only-testing:SimpleCalculatorUITests/MultiplyTest \
  test &
+ 
  ## run XCUTTest in parallel by schemes
+ 
  xcodebuild \
  -scheme SimpleCalculatorUITests \
  -destination 'platform=iOS Simulator,name=iPhone X,OS=11.0' \
@@ -61,7 +66,9 @@ xcodebuild \
  -scheme "SimpleCalculatorUITests copy 2" \
  -destination 'platform=iOS Simulator,name=iPhone X 3,OS=11.0' \
  test &
+ 
  ## run XCUTTest in parallel on different devices
+ 
  xcodebuild \
  -scheme SimpleCalculatorUITests \
  -destination 'platform=iOS Simulator,name=iPhone X,OS=11.0' \
@@ -78,7 +85,9 @@ for (( i=0; i<${#devices[@]}; i++ ));
 do
   devices[$i]="id=${devices[$i]}"
 done
+
 ## parallel testing on real devices
+
 xcodebuild \
  -scheme SimpleCalculatorUITests \
  -destination 'id=${UDID_1}' \
