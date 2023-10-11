@@ -67,3 +67,23 @@ xcodebuild \
  -destination 'platform=iOS Simulator,name=iPhone X,OS=11.0' \
  -destination 'platform=iOS Simulator,name=iPhone 8,OS=11.0' \
  test
+## get real USB attached iPhone devices UUID
+device_type='iPhone'
+devicesString=$(system_profiler SPUSBDataType |
+ grep -A 11 -w "${device_type}" |
+ grep "Serial Number" |
+ awk '{ print $3 }')
+devices=(${devicesString// / })
+for (( i=0; i<${#devices[@]}; i++ ));
+do
+  devices[$i]="id=${devices[$i]}"
+done
+## parallel testing on real devices
+xcodebuild \
+ -scheme SimpleCalculatorUITests \
+ -destination 'id=${UDID_1}' \
+ test & \
+xcodebuild \
+ -scheme "SimpleCalculatorUITests copy" \
+ -destination 'id=${UDID_2}' \
+ test &
