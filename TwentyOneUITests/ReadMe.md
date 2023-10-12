@@ -33,7 +33,7 @@ firstly create json with  .apns name extension
 
 secondly
 
-xcrun simctl push booted ru.cian.mobile ~/Documents/mocks/push.apns
+xcrun simctl push booted com.mydomain.mobileapp ~/Documents/mocks/push.apns
 ## run XCUITests in parallel by classes
 xcodebuild \
  -scheme SimpleCalculatorUITests \
