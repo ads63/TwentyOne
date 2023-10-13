@@ -7,7 +7,12 @@ use ^C to terminate monitoring
 tail -cN - f server.log
 ### display last N characters from server.log file
 tail -cN server.log
-## GREP
+## HEAD display file(s) content
+### display first N lines from *.log files (default N=10)
+tail -nN  *.log
+### display first N characters from server.log file
+tail -cN server.log
+## GREP to search in file or in other command output
 ### to searh in file(s)
  grep [options] [pattern] [file]
 or
@@ -32,3 +37,14 @@ or
  -f [pattern_file] - read patterns from pattern_file where single line corresponds to single pattern
  -e [pattern1] -e [pattern2] -e [pattern3] - multiple patterns in command line
  -E '[Extended RegEx]' - use extended regexp
+## AWK text data processing (file / other command output)
+awk {command} [file]
+### command paameter
+print $0 - print lines
+print NR,$0 - add line numbers to printed lines 
+print $n - print column n (n>0)
+print $NF - print the last column
+'/^ssss/' output lines starting with "ssss" 
+'/ssss$/' output lines ending with "ssss" 
+'! /ssss$/'  output lines not ending with "ssss" 
+'/Xx/{print $0'} - print lines including Xx string
